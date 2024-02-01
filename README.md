@@ -12,8 +12,30 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 ## Getting Started
 (Instructions on how to set up and run the project, including installing dependencies, environment setup, etc.)
 
-## Usage
-(Brief examples of how to use the platform, or how to run the included scripts or software components.)
+## Code Contribution and Conflict Resolution
 
-## Contributing
-(Guidelines for contributing to the project, including coding standards, pull request process, etc.)
+Before committing code, ensure there are no conflicts or potential issues. Follow these steps:
+
+1. **Check for Conflicts**: Always pull the latest changes from the base branch and check for conflicts.
+
+2. **Collaboration**: If you encounter problems, reach out to the team in the group chat for a review.
+
+3. **Unresolved Issues**: For problems that remain unsolved, prepare a concise description and bring it up in the next meeting.
+
+**Branch Naming Criteria**: Adhere to the specified branch naming criteria (`feature/`, `bugfix/`, `hotfix/`, etc.) for clarity and consistency in our workflow.
+
+## Branch Management
+
+In SalusAI, we adhere to specific branch management rules to ensure a smooth and efficient workflow:
+
+1. **Feature Branches (`feature/<feature-name>`):** Used for developing new features. Branched from and merged back into `develop`.
+
+2. **Bugfix Branches (`bugfix/<bugfix-description>`):** For bug fixes, usually branched from and merged back into `develop`.
+
+3. **Hotfix Branches (`hotfix/<hotfix-description>`):** For urgent fixes to production, branched from `main` and merged back into both `main` and `develop`.
+
+4. **Release Branches (`release/<release-version>`):** For preparing releases, branched from `develop` and merged into `main` and back into `develop`.
+
+5. **Experiment Branches (`experiment/<experiment-name>`):** For experimental work, not necessarily merged back.
+
+These rules help maintain order and clarity in our version control system.
