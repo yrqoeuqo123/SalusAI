@@ -9,6 +9,8 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 
 - Discord Channel for Communication: https://discord.gg/hr4PczbX
 
+- Trello for Planning: https://trello.com/invite/b/KRh8MCHG/ATTIdb4477de0e01d0ab11ae4e0d0869b227547FE4EE/salus
+
 ## Features
 - Integration with popular health data platforms like Apple Health and Garmin.
 - Personalized fitness and dietary plans based on individual health metrics.
