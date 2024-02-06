@@ -5,9 +5,9 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 
 - Meeting Notes:
 
-- Member Info (email and contact):
+- Member Info (email and contact): 
 
-- Discord Channel for Communication:
+- Discord Channel for Communication: https://discord.gg/hr4PczbX
 
 ## Features
 - Integration with popular health data platforms like Apple Health and Garmin.
