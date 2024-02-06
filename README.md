@@ -11,6 +11,8 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 
 - Trello for Planning: https://trello.com/invite/b/KRh8MCHG/ATTIdb4477de0e01d0ab11ae4e0d0869b227547FE4EE/salus
 
+**Regular Meeting time: Saturday 10 am - 11 am**
+
 ## Features
 - Integration with popular health data platforms like Apple Health and Garmin.
 - Personalized fitness and dietary plans based on individual health metrics.
