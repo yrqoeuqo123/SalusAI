@@ -3,6 +3,9 @@
 ## Overview
 SalusAI is a business-focused AI wellness platform, offering personalized health management by integrating with devices like Apple Health and Garmin. It features stress and cardio tracking with an AI-guided interactive experience.
 
+Meeting Notes:
+Member Info (email and contact):
+
 ## Features
 - Integration with popular health data platforms like Apple Health and Garmin.
 - Personalized fitness and dietary plans based on individual health metrics.
