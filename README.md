@@ -21,53 +21,82 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 
 ## Getting Started
 
-To set up your development environment for this project, you will need to have Node.js installed. We recommend using the Long Term Support (LTS) version for better stability and compatibility with our application.
+## Development Environment Setup Guide
 
-### Step 1: Download Node.js
+Welcome to our React Native project! This guide will walk you through setting up your development environment to ensure you have all the necessary tools and dependencies installed. Our project uses Expo for a seamless cross-platform development experience and Yarn as our package manager for its speed and reliability.
 
-1. Visit the official Node.js website: [https://nodejs.org/en/](https://nodejs.org/en/)
-2. We recommend downloading **Node.js 20.11.0 LTS**, which is labeled as "Recommended For Most Users".
-3. Click on the download link for your operating system (Windows, macOS, or Linux) to begin the download.
+### Prerequisites
 
-### Step 2: Install Node.js
+Before you begin, ensure you have Node.js installed on your machine. Node.js is essential for running the Expo CLI and Yarn.
 
-After downloading, run the installer and follow the prompts to complete the installation. The installer will guide you through the process, which includes accepting the license agreement, choosing the installation location, and selecting which components to install.
+- **Node.js**: Download and install Node.js from [Node.js official website](https://nodejs.org/).
 
-### Step 3: Verify Installation
+### Step 1: Install Yarn
 
-To ensure Node.js and npm (Node.js package manager) were installed correctly, open a terminal or command prompt and run the following commands:
+After installing Node.js, the next step is to install Yarn. Yarn is a powerful package manager that facilitates efficient management of project dependencies.
 
-```bash
-node -v
-```
+- **Windows and macOS**:
 
-### Step 4: Install Yarn
+  Open a terminal or command prompt and run the following command to install Yarn globally:
 
-Yarn is a powerful package manager that facilitates the installation of packages and management of project dependencies. To install Yarn globally on your system, open a terminal and run the following command:
+  ```bash
+  npm install --global yarn
+  ```
 
-```bash
-npm install --global yarn
-```
+### Step 2: Install Expo CLI
+Expo CLI is a command-line tool that enables you to work with Expo, a framework and platform for universal React applications.
 
-Verify the installation by checking the version of Yarn:
+In your terminal or command prompt, run:
 
-```bash
-yarn --version
-```
+  ```bash
+  yarn global add expo-cli
+  ```
 
-This command should return the version of Yarn that was installed.
+### Step 3: Initialize Your React Native Project
+Now, let's start a new React Native project using Expo.
 
+Run the following command and follow the prompts to create a new Expo project:
 
-### Step 5: Setting Up a React Native Project
+  ```bash
+  expo init YourProjectName
+  ```
+Replace YourProjectName with the desired name of your project.
 
-1. **Initialize a New React Native Project**
+###Step 4: Navigate to Your Project Directory
 
-To create a new React Native app, run the following command in your terminal:
+Change into your project directory:
 
-```bash
-npx react-native init YourProjectName
-```
-Replace YourProjectName with the desired name of your project. This command creates a new directory with all the initial files and configurations needed for a React Native app.
+  ```bash
+  cd YourProjectName
+  ```
+
+### Step 5: Start the Development Server
+Launch the Expo development server:
+
+  ```bash
+  yarn start
+  ```
+Or, you can use:
+  ```bash
+  expo start
+  ```
+
+This command will open a new tab in your web browser with the Expo developer tools.
+
+### Step 6: Running Your App
+
+- **On Your Mobile Device**: Download the Expo Go app from the iOS App Store or Google Play Store. Use the Expo Go app to scan the QR code displayed in the Expo developer tools to open your project on your device.
+
+- **iOS Simulator (macOS Only)**: To run your app on an iOS simulator, ensure you have Xcode installed on your macOS device. From the Expo developer tools in the browser, click on "Run on iOS simulator".
+
+- **Android Emulator**: To run your app on an Android emulator, ensure you have Android Studio installed and an emulator set up. From the Expo developer tools in the browser, click on "Run on Android device/emulator".
+
+### Collaborating and Version Control
+We use Git for version control. Make sure to regularly commit your changes and push them to our shared repository. Collaborate effectively by using branches for new features and pull requests for merging changes.
+
+### Conclusion
+You're now set up to develop with React Native, Expo, and Yarn. This setup ensures a smooth and efficient development process across different operating systems. Happy coding!
+
 
 ## Code Contribution and Conflict Resolution
 
