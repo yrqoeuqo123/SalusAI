@@ -20,7 +20,27 @@ SalusAI is a business-focused AI wellness platform, offering personalized health
 - AI-driven chatbot for interactive user guidance and support.
 
 ## Getting Started
-(Instructions on how to set up and run the project, including installing dependencies, environment setup, etc.)
+
+To set up your development environment for this project, you will need to have Node.js installed. We recommend using the Long Term Support (LTS) version for better stability and compatibility with our application.
+
+### Step 1: Download Node.js
+
+1. Visit the official Node.js website: [https://nodejs.org/en/](https://nodejs.org/en/)
+2. We recommend downloading **Node.js 20.11.0 LTS**, which is labeled as "Recommended For Most Users".
+3. Click on the download link for your operating system (Windows, macOS, or Linux) to begin the download.
+
+### Step 2: Install Node.js
+
+After downloading, run the installer and follow the prompts to complete the installation. The installer will guide you through the process, which includes accepting the license agreement, choosing the installation location, and selecting which components to install.
+
+### Step 3: Verify Installation
+
+To ensure Node.js and npm (Node.js package manager) were installed correctly, open a terminal or command prompt and run the following commands:
+
+```bash
+node -v
+
+
 
 ## Code Contribution and Conflict Resolution
 
