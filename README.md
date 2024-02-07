@@ -41,6 +41,33 @@ To ensure Node.js and npm (Node.js package manager) were installed correctly, op
 node -v
 ```
 
+### Step 4: Install Yarn
+
+Yarn is a powerful package manager that facilitates the installation of packages and management of project dependencies. To install Yarn globally on your system, open a terminal and run the following command:
+
+```bash
+npm install --global yarn
+```
+
+Verify the installation by checking the version of Yarn:
+
+```bash
+yarn --version
+```
+
+This command should return the version of Yarn that was installed.
+
+
+### Step 5: Setting Up a React Native Project
+
+1. **Initialize a New React Native Project**
+
+To create a new React Native app, run the following command in your terminal:
+
+```bash
+npx react-native init YourProjectName
+```
+Replace YourProjectName with the desired name of your project. This command creates a new directory with all the initial files and configurations needed for a React Native app.
 
 ## Code Contribution and Conflict Resolution
 
