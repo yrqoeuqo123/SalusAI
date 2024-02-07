@@ -52,6 +52,12 @@ In your terminal or command prompt, run:
   yarn global add expo-cli
   ```
 
+  or if does not works use 
+  
+  ```bash
+  npm install -g expo-cli
+  ```
+
 ### Step 3: Initialize Your React Native Project
 Now, let's start a new React Native project using Expo.
 
