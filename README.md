@@ -39,7 +39,7 @@ To ensure Node.js and npm (Node.js package manager) were installed correctly, op
 
 ```bash
 node -v
-
+```
 
 
 ## Code Contribution and Conflict Resolution
